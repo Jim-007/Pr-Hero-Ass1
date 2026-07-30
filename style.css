@@ -134,3 +134,78 @@
   font-weight: bold;
   text-align: center;
 }
+
+.section-title{
+    text-align: center;
+}
+.pricing-section {
+  padding: 96px 0;
+  background-color: #f8fafc;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.pricing-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 40px 32px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pricing-card.uni {
+  background: #0f172a;
+  color: #ffffff;
+  border-color: #0f172a;
+  transform: scale(1.05);
+}
+
+.pricing-card.uni .plan-name {
+  color: #60a5fa;
+}
+
+.pricing-card.uni .price {
+  color: #ffffff;
+}
+
+.pricing-card.uni .features-list p {
+  color: #cbd5e1;
+}
+
+.plan-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.price {
+  font-size: 48px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 24px;
+}
+
+.price span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #64748b;
+}
+
+.features-list {
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.features-list p {
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: #475569;
+}
