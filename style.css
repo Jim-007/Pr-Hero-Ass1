@@ -1,0 +1,19 @@
+.navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+.navbar_inner {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar_menu {
+  display: flex;
+  gap: 28px;
+  font-size: 15px;
+}
+.navbar_menu a {
+  color: #333;
+  text-decoration: none;
+}
