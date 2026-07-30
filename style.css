@@ -68,3 +68,69 @@
   max-width: 650px;
   margin: 0 auto 36px auto;
 }
+
+.speakers-section {
+  padding: 90x 0;
+  text-align: center;
+}
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.card img {
+    height: auto;
+    width: auto;
+  object-fit: fill
+}
+
+.info {
+  padding: 24px;
+
+}
+
+.badge {
+  display: inline-block;
+  background-color: #3e4046;
+  color: #496ccc;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  
+}
+
+.info p {
+  font-size: 14px;
+  color: #777a7e;
+}
+
+.track-label{
+    color: #496ccc;
+}
+
+.btn{
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
